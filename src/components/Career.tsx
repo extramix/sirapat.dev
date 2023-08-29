@@ -34,7 +34,7 @@ const Career = () => {
   ];
   return (
     <>
-      <h1 className='font-semibold mb-5 text-lg'>Career Timeline</h1>
+      {/* <h1 className='font-semibold mb-5 text-lg'>Career Timeline</h1>
       {careerData.map((career) => (
         <CareerItem
           key={career.id}
@@ -45,7 +45,7 @@ const Career = () => {
           endDate={career.endDate}
           description={career.description}
         />
-      ))}
+      ))} */}
     </>
   );
 };
