@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Sirapat Jariyanantakul",
   profile: "https://sirapat.dev/",
   desc: "Software Engineer",
-  title: "sirapat.dev",
+  title: "Mix",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
