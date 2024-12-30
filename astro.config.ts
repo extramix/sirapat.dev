@@ -6,8 +6,6 @@ import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 
-import netlify from "@astrojs/netlify";
-
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
@@ -48,7 +46,4 @@ export default defineConfig({
   experimental: {
     contentLayer: true,
   },
-
-  output: "server",
-  adapter: netlify(),
 });
